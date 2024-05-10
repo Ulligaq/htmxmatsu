@@ -1,0 +1,62 @@
+body {
+    font-family: Impact, fantasy;
+    color: black;
+    text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px black;
+  }
+h1 {
+    font-family: Impact, fantasy;
+    color: black;
+    text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px black;
+}
+
+h2 {
+    font-family: Impact, fantasy;
+    color: black;
+    text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px black;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+  
+
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+main {
+    padding: 20px;
+  }
+  
+#movie-form {
+    margin-bottom: 20px;
+  }
+  
+input, button {
+    margin-right: 10px;
+  }
+  
+.movie-card {
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+  
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatSuVideo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url('assets/matsuvideo.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+  
+      header {
+        background-color: black;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .logo {
+        height: 100%;
+        max-height: 100px;
+      }
+  
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+  
+      nav ul li {
+        margin-right: 20px;
+      }
+  
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="assets/blinkiesCafe-lo.gif" alt="Blinkies Cafe Logo" class="logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="cineplex.html">Cineplex Times</a></li>
+        </ul>
+      </nav>
+    </header>
+  <main>
+    <div id="movie-form">
+      <input type="text" id="date" placeholder="Date">
+      <input type="text" id="movie" placeholder="Movie">
+      <input type="text" id="time" placeholder="Time">
+      <button id="add-movie">Add Movie</button>
+      <button id="get-all-movies">Get All Movies</button>
+    </div>
+    <div id="movie-list"></div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
